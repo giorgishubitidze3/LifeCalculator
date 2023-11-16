@@ -1,6 +1,6 @@
 # LifeCalculator
 
-Simple application that displays your current age and expected life expectancy based on your country.
+Simple application that displays your current age and life expectancy based on your country.
 
 
 ![IMG_20231116_185816](https://github.com/giorgishubitidze3/LifeCalculator/assets/129633670/c48ba735-cfa9-429a-8588-50dc68cce691)
