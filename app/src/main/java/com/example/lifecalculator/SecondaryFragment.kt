@@ -78,6 +78,8 @@ class SecondaryFragment : Fragment() {
             val ageInDays = (ageInSeconds / (60 * 60 * 24)).toInt()
             val ageInHours = (ageInSeconds / (60 * 60)).toInt()
             val ageInMinutes = (ageInSeconds / 60).toInt()
+
+
             val ageInSecondsRemaining = ageInSeconds.toInt()
 
             val remainingYears = targetAgeInYears - ageInYears
@@ -85,7 +87,7 @@ class SecondaryFragment : Fragment() {
             val remainingDays = (targetAgeInYears * 12 * 30) - ageInDays
             val remainingHours = (targetAgeInYears * 12 * 30 * 24) - ageInHours
             val remainingMinutes = (targetAgeInYears * 12 * 30 * 24 * 60) - ageInMinutes
-            val remainingSeconds = (targetAgeInYears * 12 * 30 * 24 * 60 * 60)  - ageInSecondsRemaining
+            val remainingSeconds = (targetAgeInYears * 12 * 30 * 24 * 60 * 60)  - ageInSeconds.toInt()
 
 
             handler.post {
